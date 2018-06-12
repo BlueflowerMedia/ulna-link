@@ -1,0 +1,568 @@
+#section-header{
+   background-color: #06668f;
+   text-align: center;
+   color: white;
+ }
+
+
+#img-logo{
+//  margin-top: 20px;
+ line-height: 20vw;
+ margin-left: 10vw;
+ height: 60px;
+ width:50px;
+ vertical-align: middle;
+}
+@media screen and (min-width:850px){
+ #logo-text{
+   font-size: 4vw;
+   vertical-align: middle;
+   line-height: 12vw;
+ }
+ #img-logo{
+   height: 120px;
+   width: 100px;
+   margin-left: 5vw;
+   vertical-align: middle;
+ }
+}
+
+@media screen and (min-width:1400px){
+ #logo-text{
+   font-size: 4vw;
+
+   line-height: 8vw;
+ }
+
+}
+
+
+#section-desc {
+ // display: flex;
+ background-color: #06668F;
+
+ #rcorner {
+   border-radius: 0px 115px 0px 0px;
+   background: #66953E;
+   padding: 5% 10%;
+   max-width: 90%;
+   height: auto;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   font-size: 3.4vw;
+
+   p{
+     color: white;
+     font-family: 'Roboto', sans-serif;
+     font-size: 1.2vw;
+   }
+ }
+ @media screen and (max-width:600px){
+   #rcorner{
+     border-radius: 0px 50px 0px 0px;
+     padding:5%;
+     font-size: 4vw;
+     p{
+       font-size: 2.5vw;
+     }
+   }
+
+ }
+
+
+ #img1 {
+   padding-bottom: 20px;
+   width: 100%;
+   height: auto;
+ }
+
+}
+
+
+.blank-space-1{
+ background-color: #06668F;
+ height:10vw;
+}
+
+
+
+.banner{
+ background-color: #EEF5FB;
+}
+
+#box {
+ position: relative;
+ border-radius: 0 38%;
+ background: #67973f;
+ width: 15vw;
+ height: 15vw;
+ display:inline-block;
+ color: white;
+ line-height: 15vw;
+ text-align: center;
+ font-size: 5vw;
+ font-weight: 300;
+margin:0 20px 0 0;
+ &:after {
+   content: "";
+   @include position(absolute, $top: 3%, $left: 3%);
+   border-radius: 0px 38%;
+   border: 2px solid white;
+   width: 14vw;
+   height:14vw;
+ }
+}
+
+#box-white{
+ width: 15vw;
+ height: 15vw;
+ background: transparent;
+ margin:0;
+
+}
+
+
+#tree{
+ position: absolute;
+ height: auto;
+ transform: translateY(60px);
+ opacity: 0;
+ transition: opacity 1s linear;
+ &.treeReveal {
+  opacity: 1;
+  transition: all .5s cubic-bezier(0,1.17,.63,1.44) ;
+  transform: translateY(0px) scale(1.1);
+}
+}
+
+#tree:hover{
+ transform: translateY(-20px) scale(1.1);
+ opacity:1;
+}
+
+#tree1{
+ @extend #tree;
+ top: 25vw;
+ left: 11vw;
+ width: 2%;
+}
+
+#tree2{
+ @extend #tree;
+ top: 35vw;
+ left: 4vw;
+ width: 3%;
+
+}
+
+#tree3{
+ @extend #tree;
+ top: 32vw;
+ left: 7vw;
+ width: 2%;
+}
+
+#tree4{
+ @extend #tree;
+ top: 33vw;
+ left: 20vw;
+ width: 4%;
+}
+.blank-space-2{
+ background-color: #EEF5FB;
+ height:18vw;
+ position:relative;
+}
+#tree5{
+ @extend #tree;
+ top: -20px;
+ left: 18vw;
+ width: 3%;
+}
+
+#tree6{
+ @extend #tree;
+ top: 1vw;
+ left: 2vw;
+ width: 4%;
+}
+
+#tree7{
+ @extend #tree;
+ top: 12vw;
+ left: 14vw;
+ width: 3.3%;
+}
+
+#tree8{
+ @extend #tree;
+ top: 9vw;
+ left: 31vw;
+ width: 2.5%;
+}
+
+#tree9{
+ @extend #tree;
+ top: 17vw;
+ left: 25vw;
+ width: 2.5%;
+}
+
+#tree10{
+ @extend #tree;
+ top: 19vw;
+ left: 7vw;
+ width: 2.5%;
+}
+
+#tree11{
+ @extend #tree;
+ top: 22vw;
+ left: 1vw;
+ width: 2.5%;
+}
+
+
+#tree12{
+ @extend #tree;
+ top: 25vw;
+ left: 10vw;
+ width: 2.5%;
+}
+
+#tree13{
+ @extend #tree;
+ top: 16vw;
+ left: 90vw;
+ width: 2.5%;
+}
+
+#tree14{
+ @extend #tree;
+ top: 18vw;
+ left: 70vw;
+ width: 2.5%;
+}
+#tree15{
+ @extend #tree;
+ top: 26vw;
+ left: 80vw;
+ width: 2.5%;
+}
+#tree16{
+ @extend #tree;
+ top: 28vw;
+ left: 95vw;
+ width: 2.5%;
+}
+#tree17{
+ @extend #tree;
+ top: 8vw;
+ left: 83vw;
+ width: 2%;
+}
+#tree18{
+ @extend #tree;
+ top: 13vw;
+ left: 86vw;
+ width: 2%;
+}
+#tree19{
+ @extend #tree;
+ top:23vw;
+ left: 70vw;
+ width: 2.5%;
+}
+#tree20{
+ @extend #tree;
+ top: 28vw;
+ left: 65vw;
+ width: 2.5%;
+}
+#tree21{
+ @extend #tree;
+ top: 30vw;
+ left: 84vw;
+ width: 2.5%;
+}
+#tree22{
+ @extend #tree;
+ top: 33vw;
+ left: 67.5vw;
+ width: 2.5%;
+}
+#tree23{
+ @extend #tree;
+ top: 40vw;
+ left: 59vw;
+ width: 2.5%;
+}
+#tree24{
+ @extend #tree;
+ top: 48vw;
+ left: 89vw;
+ width: 2.5%;
+}
+#tree25{
+ @extend #tree;
+ top: 52vw;
+ left: 77vw;
+ width: 2.5%;
+}
+@media screen and (max-width: 600px){
+
+ #tree5{
+   display: none;
+ }
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 45vw solid #EEF5FB;
+    border-right: 45vw solid transparent;
+ position: absolute;
+ top: 0;
+ left: 0;
+
+}
+
+
+@media screen and (max-width: 600px){
+ div.triangle{
+   display:none;
+ }
+ #box-white{
+   display:none;
+ }
+ #tree1,#tree2,#tree3,#tree4{
+   display: none;
+ }
+}
+
+
+.container flex-row{
+ color: white;
+}
+
+#top{
+   font-size: 2vw;
+   color: white;
+   margin-top: 4vw;
+   margin-bottom: 0vw;
+   font-weight: 360;
+}
+#bottom{
+ font-size: 1.3vw;
+ background-color:#67973f;
+ color: white;
+ margin: 0vw;
+ padding: .4vw 1.2vw;
+ letter-spacing: .05vw;
+ font-weight: 250;
+}
+
+@media screen and (max-width:600px){
+ #top{
+   font-size: 3vw;
+ }
+ #bottom{
+   font-size: 2vw;
+ }
+}
+
+.banner{
+ background-color: #06668F;
+ position: relative;
+}
+
+.container{
+ padding:0;
+ vertical-align: middle;
+}
+
+#section-description {
+   background-color: #EDF5FA;
+   margin: 0;
+   padding: 0;
+     #img1 {
+       width: 50%;
+       height: auto;
+       display: block;
+       margin-left: 20%;
+       margin-right: auto;
+       margin-bottom: -47px;
+
+     }
+
+   .text-description{
+     padding-left: 20px;
+     padding-right: 20px;
+
+
+     #rcorner1 {
+       border-radius: 500px 500px 0px 0px;
+       background: linear-gradient(to bottom,#639442,#1A648D);
+       padding: 20px;
+       margin: 0;
+       color: white;
+       font-family: 'Roboto', sans-serif;
+       font-size: 3vw;
+       text-align: center;
+       padding-left: 50px;
+       padding-top: 50px;
+       position: relative;
+       // bottom: 60px;
+
+     p {
+       padding-left: 24%;
+       padding-right: 24%;
+       font-size: 1.3vw;
+       }
+     }
+
+     @media screen and (max-width: 600px) {
+     #rcorner1 {
+         border-radius: 100px 100px 0px 0px important;
+       }
+     }
+   }
+}
+
+
+@media screen and (max-width:1200px){
+ #section-description{
+   #img1{
+     margin-bottom: -29px;
+   }
+   .text-description #rcorner1{
+     border-radius: 200px 200px 0px 0px;
+     padding:12px;
+   }
+   .text-description #rcorner1 p {
+     padding: 20px 40px;
+   }
+ }
+}
+
+
+@media screen and (max-width:600px){
+ #section-description{
+   #img1{
+     margin-bottom: -15px;
+   }
+   .text-description #rcorner1{
+     border-radius: 100px 100px 0px 0px;
+     padding-top: 30px;
+   }
+   .text-description #rcorner1 p {
+     padding: 10px 10px;
+     font-size: 3vw;
+
+   }
+ }
+}
+
+
+#section-sign-up{
+ background-color: #66953E;
+ text-align: center;
+
+ .employer {
+   padding-bottom: 6vw;
+ }
+
+   .wpcf7-form-control{
+     color: #1A648D;
+     line-height: 3vw;
+     padding-left: 10px;
+     font-size: 1.7vw;
+     width: 50%;
+   }
+
+ h1 {
+     color: white;
+     padding: 3vw;
+     margin: 0;
+     font-size: 4vw;
+   }
+
+   #pic-employer {
+     width: 50%;
+     height: auto;
+   }
+
+   #pic-job-seeker {
+     width: 50%;
+     height: auto;
+   }
+
+   h2 {
+     color: white;
+     font-size: 2.5vw;
+     margin-bottom: 2vw;
+   }
+
+   .wpcf7-submit {
+        background-color: #1A648D;
+        color: white;
+        font-size: 1.8vw;
+        border-color: #1A648D;
+        // padding-left: 1.5vw;
+        width: 25%;
+      }
+ }
+
+ .blank-space-3 {
+   background-color: #EEF5FB;
+   height:12vw;
+   position:relative;
+ }
+
+ @media screen and (max-width:600px) {
+   .blank-space-3 {
+     display: none;
+   }
+   .trees {
+     display: none;
+   }
+ }
+#section-contact-us{
+ background-color: #EDF5FA;
+
+ .wpcf7-form-control{
+   color: #1A648D;
+   line-height: 3vw;
+   padding-left: 10px;
+   font-size: 1.7vw;
+ }
+
+ .contact {
+   padding-left: 11vw;
+   margin-top: 0px;
+
+   h2 {
+     font-size: 5vw;
+     color: #1A648D;
+     margin-top: 0px;
+   }
+
+   p {
+     color: #1A648D;
+     font-size: 1.5vw;
+       line-height:1.5;
+   }
+ }
+
+ select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required{
+   width: 86%;
+   height: 3.5vw;
+ }
+
+ .wpcf7-submit {
+      background-color: #1A648D;
+      color: white;
+      font-size: 1.9vw;
+      width: 25%;
+    }
+}
