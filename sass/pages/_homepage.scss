@@ -2,6 +2,10 @@
    background-color: #06668f;
    text-align: center;
    color: white;
+
+   #logo-text {
+     align-content: center;
+   }
  }
 
 
@@ -18,6 +22,7 @@
    font-size: 4vw;
    vertical-align: middle;
    line-height: 12vw;
+   align-content: center;
  }
  #img-logo{
    height: 120px;
@@ -30,7 +35,7 @@
 @media screen and (min-width:1400px){
  #logo-text{
    font-size: 4vw;
-
+   align-content: center;
    line-height: 8vw;
  }
 
