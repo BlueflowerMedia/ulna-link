@@ -18,8 +18,8 @@
 <section id="section-desc">
 <div class="flex-row all-list">
   <div class="list-left flex1">
-    <h2 id="rcorner">We help hospitals connect with medical professionals.
-      <p>We also help recruitment firms, private companies, and more!</p>
+    <h2 id="rcorner">Social Media and meta job search platform for Medical community.
+      <!-- <p>We also help recruitment firms, private companies, and more!</p> -->
     </h2>
   </div>
   <div class="list-right flex1">
@@ -63,7 +63,7 @@
 
 
     <div id="2" class="list-right flex">
-      <p id="top">Auto share careers through social media.</p>
+      <p id="top">Auto share information through social media.</p>
       <p id="bottom">Selected your profession? Great, create connection on this niche website.</p>
     </div>
   </div>
@@ -85,8 +85,8 @@
       <p id="box">3</p>
     </div>
     <div  id="3" class="list-right flex">
-      <p id="top">Free!</p>
-      <p id="bottom">This site will offer free service to those who need to find work.</p>
+      <p id="top">Free to use community focussed services.</p>
+      <p id="bottom">Need extra features? Get a premium account by inviting friends<br> and other businesses.</p>
     </div>
   </div>
 </section>
@@ -116,7 +116,7 @@
     <img id="img1" src="<?php echo get_template_directory_uri(); ?>/images/ulna-hospital.svg" alt="">
   </div>
 <div class="text-description">
-    <h2 id="rcorner1">We specialize in Medical.
+    <h2 id="rcorner1">About Us
       <p>This  site is  dedicated  to  one  niche  in  particular:<br>Medical  field.  It  can  be  anyone  starting  from  Personal  Support  Worker  (PSW)who  just  finished  their  placement  and  obtained  certeficate,  and  ending  up  withRegistered  Nurses  (RN),  Doctors  e.t.c...  As  a  client,  all  your  job  is  to  follow  job  listing  news  and  information  board  for  monthly  updates,  once  registered.  If  you  are  employeryour  task  is  to  upload  work  order  and  wait  for  responce.</p>
     </h2>
   </div>
@@ -125,6 +125,7 @@
 <!-- signup section -->
 <section id="section-sign-up">
   <h1>Sign Up Today!</h1>
+  <h2>For news updates.</h2>
     <div class="container flex-row">
       <div class="employer flex1">
         <img id="pic-employer" src="<?php echo get_template_directory_uri(); ?>/images/ulna-employer.png" alt="">
@@ -176,3 +177,4 @@
 </section>
 
 <?php get_footer(); ?>
+
