@@ -5,7 +5,7 @@
 <section id="section-header">
   <div class="flex-row">
     <div class="flex-column">
-      <img id="img-logo" src="<?php echo get_template_directory_uri(); ?>/images/ulnalink-logo.JPG" alt="ULNA LINK logo">
+      <img id="img-logo" src="<?php echo get_template_directory_uri(); ?>/images/ulna-link-final-logo.svg" alt="ULNA LINK logo">
     </div>
     <div class="flex-column" id="logo-text">
       ULNA LINK
@@ -177,4 +177,3 @@
 </section>
 
 <?php get_footer(); ?>
-
