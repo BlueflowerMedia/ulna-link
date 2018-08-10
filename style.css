@@ -1385,6 +1385,8 @@ nav#site-navigation .nav-middle {
   background-color: #06668f;
   text-align: center;
   color: white; }
+  #section-header #logo-text {
+    align-content: center; }
 
 #img-logo {
   line-height: 20vw;
@@ -1397,7 +1399,8 @@ nav#site-navigation .nav-middle {
   #logo-text {
     font-size: 4vw;
     vertical-align: middle;
-    line-height: 12vw; }
+    line-height: 12vw;
+    align-content: center; }
 
   #img-logo {
     height: 120px;
@@ -1407,6 +1410,7 @@ nav#site-navigation .nav-middle {
 @media screen and (min-width: 1400px) {
   #logo-text {
     font-size: 4vw;
+    align-content: center;
     line-height: 8vw; } }
 #section-desc {
   background-color: #06668F; }
