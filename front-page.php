@@ -2,7 +2,7 @@
 
 <!-- section header -->
 
-<section id="section-header">
+<!-- <section id="section-header">
   <div class="flex-row">
     <div class="flex-column">
       <img id="img-logo" src="<?php echo get_template_directory_uri(); ?>/images/ulna-link-final-logo.svg" alt="ULNA LINK logo">
@@ -12,7 +12,7 @@
     </div>
   </div>
 
-</section>
+</section> -->
 
 <!-- section description -->
 <section id="section-desc">
