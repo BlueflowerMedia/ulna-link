@@ -19,7 +19,7 @@
 	<div class="container flex-column">
 		<div class="flex-row">
 			<div class="flex-column">
-				<img id="img-logo" src="<?php echo get_template_directory_uri(); ?>/images/ulnalink-logo.JPG" alt="ULNA LINK logo">
+				<img id="img-logo" src="<?php echo get_template_directory_uri(); ?>/images/ulna-link-final-logo.svg" alt="ULNA LINK logo">
 			</div>
 			<div class="flex-column">
 				ULNA LINK
