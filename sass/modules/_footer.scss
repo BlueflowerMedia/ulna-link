@@ -1,36 +1,32 @@
-.site-footer{
-    background-color: #1B648D;
-    text-align: center;
-    color: white;
-
-    #img-logo{
-      margin-top: 20px;
-      height: 60px;
-      width:50px;
-    }
-
-    div.flex-column{
-    // line-height: 90px;
-    font-size: 2.5vw;
+footer#colophon {
+  background-color: #06668f;
+  .image {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 1vw;
-    font-family: 'Roboto', sans-serif;
-
-    p {
-      font-size: 1.5vw;
+    flex-direction: row;
+    padding: 0;
+    height: 100px;
+  a {
+    width: 120px;
+    svg {
+      fill: white;
+      width: 120px;
+      height: 100px;
     }
-    }
-
   }
-
-
-
-
-
-
-// .flex-row{
-// display: flex;
-// flex-direction: row;
-// justify-content:center;
-// vertical-align: middle;
-// }
+  .text {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    align-self: center;
+  }
+}
+  p {
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+}

@@ -27,7 +27,7 @@
 		<nav id="site-navigation" class="main-navigation fixed container-navbar">
 			<div class="image">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"
-				  <?php echo file_get_contents(get_template_directory_uri()."/images/ulna-link-final-logo.svg") ?>>
+				  <?php echo file_get_contents(get_template_directory_uri()."/images/ulna-link-final-logo.svg") ?>
 				</a>
 			</div>
 			<div class="text flex">ULNA LINK</div>
