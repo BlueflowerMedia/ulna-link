@@ -1336,16 +1336,16 @@ footer#colophon {
     align-items: center;
     flex-direction: row;
     padding: 0;
-    height: 100px; }
+    height: 70px; }
     footer#colophon .image a {
-      width: 120px; }
+      width: 70px; }
       footer#colophon .image a svg {
         fill: white;
-        width: 120px;
-        height: 100px; }
+        width: 80px;
+        height: 60px; }
     footer#colophon .image .text {
       color: white;
-      font-size: 50px;
+      font-size: 30px;
       font-weight: bolder;
       align-self: center; }
   footer#colophon p {
@@ -1353,7 +1353,9 @@ footer#colophon {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white; }
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px; }
 
 #section-header {
   background-color: #06668f;
